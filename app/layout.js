@@ -1,3 +1,6 @@
+import "mapbox-gl/dist/mapbox-gl.css";
+import "./globals.css";
+
 export const metadata = {
   title: "Hey Syria",
   description: "Interactive cinematic tourism experience for Syria",
