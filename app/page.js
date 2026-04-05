@@ -2,8 +2,6 @@
 
 import { useEffect, useRef, useState } from "react";
 import mapboxgl from "mapbox-gl";
-import "mapbox-gl/dist/mapbox-gl.css";
-
 export default function HomePage() {
   const mapContainer = useRef(null);
   const mapRef = useRef(null);
